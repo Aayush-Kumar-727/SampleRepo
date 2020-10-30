@@ -3,12 +3,12 @@ pipeline {
     stages {
         stage('compile') {
             steps {
-                echo 'Hello its compiling'
+                echo 'Hello its in compiling phase'
             }
         }
         stage('run') {
             steps {
-                echo 'Hello its running'
+                echo 'Hello its in running phase'
             }
         }
     }
