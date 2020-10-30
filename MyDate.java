@@ -1,7 +1,6 @@
-import java.util.Scanner;
+
 
 public class MyDate{
-	static Scanner sc = new Scanner(System.in);
 	int day,month,year;
 	MyDate(){
 		day = 20;
