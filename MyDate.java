@@ -13,29 +13,6 @@ public class MyDate{
 		month = m;
 		year = y;
 	}
-	int getDay(){
-		return day;
-	}
-	void setDay(int d){
-		day = d;
-	}
-	int getMonth(){
-		return month;
-	}
-	void setMonth(int m){
-		month = m;
-	}
-	int getYear(){
-		return year;
-	}
-	void setYear(int y){
-		year = y;
-	}
-	void set(int d,int m,int y){
-		day = d;
-		month = m;
-		year = y;
-	}
 	void display(){
 		System.out.println(day+"/"+month+"/"+year);
 	}
